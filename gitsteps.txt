@@ -1,0 +1,73 @@
+error: src refspec main does not match any
+
+D:\UST\Advanced-master\microservices\BootDocker>git init
+Initialized empty Git repository in D:/UST/Advanced-master/microservices/BootDocker/.git/
+
+D:\UST\Advanced-master\microservices\BootDocker>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Dockerfile', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/ust/bootdocker/BootDockerApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/ust/bootdocker/Welcome.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/ust/bootdocker/BootDockerApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+D:\UST\Advanced-master\microservices\BootDocker>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   Dockerfile
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/ust/bootdocker/BootDockerApplication.java
+        new file:   src/main/java/com/ust/bootdocker/Welcome.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/ust/bootdocker/BootDockerApplicationTests.java
+
+
+D:\UST\Advanced-master\microservices\BootDocker>git commit -m 'first commit of workspace'
+error: pathspec 'commit' did not match any file(s) known to git
+error: pathspec 'of' did not match any file(s) known to git
+error: pathspec 'workspace'' did not match any file(s) known to git
+
+D:\UST\Advanced-master\microservices\BootDocker>git status    
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+first commit
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   Dockerfile
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/ust/bootdocker/BootDockerApplication.java
+        new file:   src/main/java/com/ust/bootdocker/Welcome.java
+        new file:   src/main/resources/application.properties
+D:\UST\Advanced-master\microservices\BootDocker>git push -u origin --all
+info: please complete authentication in your browser...
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (27/27), 60.31 KiB | 8.61 MiB/s, done.
+Total 27 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/anilboppuri/BootDocker.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+x`
